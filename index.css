@@ -1,0 +1,47 @@
+body {
+    margin: 0; 
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.score {
+font-family: 'Cursed Timer ULiL', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+text-align: center;
+color: #F94F6D;
+background: #080001;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+h3 {
+width: 149px;
+height: 36px;
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+text-align: center;
+color: #EEEEEE;
+margin-bottom: -50px;
+}
+
+button {
+width: 45px;
+height: 45px;
+border: 2px solid #9AABD8;
+border-radius: 5px;
+background: none;
+color: #EEEEEE;
+}
